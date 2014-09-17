@@ -16,4 +16,16 @@
 //= require angular-route
 //= require angular-rails-templates
 //= require_tree ../templates
+//= require underscore
+//= require flot/jquery.flot
+//= require bootstrap/dist/js/bootstrap.min.js
+//= require modernizr/modernizr
+//= require retinajs/dist/retina.min.js
+//= require flatty/jquery/jquery.min
+//= require flatty/jquery/jquery.mobile.custom.min
+//= require flatty/jquery/jquery-migrate.min
+//= require flatty/jquery/jquery-ui.min
+//= require flatty/bootstrap/bootstrap.min
+//= require flatty/plugins/plugins
+//= require flatty/theme
 //= require_tree .

@@ -8,8 +8,24 @@
   },
   "vendor": {
     "name": "bower-rails generated vendor assets",
-    "dependencies": {
-      // "three.js"    : "https://raw.github.com/mrdoob/three.js/master/build/three.js"
-    }
+  "dependencies": {
+      "angular": "1.2.13",
+      "angular-route": "latest",
+      "angular-resource": "latest",
+      "angular-mocks": "latest",
+      "angular-ui-bootstrap-bower": "latest",
+      "font-awesome": "latest",
+      "weather-icons": "latest",
+      "underscore": "latest",
+      "flot": "0.8.3",
+      "jquery": "1.10.2",
+      "jquery-mobile": "1.2.1",
+      "jquery-ui": "1.10.2",
+      "jquery-migrate": "1.2.1",
+      "jquery-ui-touch-punch-working": "latest",
+      "bootstrap": "3.0.0",
+      "modernizr": "2.6.2",
+      "retinajs": "latest"
+   }
   }
 }
