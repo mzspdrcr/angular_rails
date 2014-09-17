@@ -15,18 +15,20 @@
       <script src="assets/javascripts/ie/respond.min.js" type="text/javascript"></script>
     <![endif]-->
 </head>
-<body ng-app="AngularRails">
-<div class="page-container">
-    <div class="page-content-wrapper">
+<body ng-app="AngularRails"  class='contrast-red '>
+<div class="container">
     <%= render partial: "layouts/header" %>
-    <div id='wrapper'>
-      <%= render partial: "layouts/nav" %>
-	</div>
-      <!-- CONTENT -->
-<div ng-view>
+    <div class="row">
+      <div class="col-md-4">
+      <div id='wrapper'><%= render partial: "layouts/nav" %></div>
+      </div>
+<div class="col-md-8">
+	<!-- CONTENT -->
+      <div ng-view>
         <%= yield %>
-      </div>      
-<!-- END CONTENT -->
+      </div>
+      <!-- END CONTENT -->
+    </div>
 </div>
 </div>
 </body>
